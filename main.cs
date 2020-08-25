@@ -30,7 +30,7 @@ class MainClass {
     Console.WriteLine ("Digite o quarto numero : ");
     num4 = float.Parse(Console.ReadLine());
 
-    Console.WriteLine ("A media dos numeros eh : {0}", (num1+num2+num3+num4)/4);
+    Console.WriteLine ("A media dos numeros eh : {0:0.00} ", (num1+num2+num3+num4)/4);
 
   }
 
