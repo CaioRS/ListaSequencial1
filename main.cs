@@ -3,32 +3,32 @@ using System;
 class MainClass {
 
   public static void ex3(){
-    int num1, num2;
+    float num1, num2;
 
     Console.WriteLine ("Digite o primeiro numero : ");
-    num1 = int.Parse(Console.ReadLine());
+    num1 = float.Parse(Console.ReadLine());
 
     Console.WriteLine ("Digite o segundo numero : ");
-    num2 = int.Parse(Console.ReadLine());
+    num2 = float.Parse(Console.ReadLine());
 
     Console.WriteLine ("A soma dos numeros eh : {0}", num1+num2);
 
   }
 
   public static void ex4(){
-    int num1, num2, num3, num4;
+    float num1, num2, num3, num4;
 
     Console.WriteLine ("Digite o primeiro numero : ");
-    num1 = int.Parse(Console.ReadLine());
+    num1 = float.Parse(Console.ReadLine());
 
     Console.WriteLine ("Digite o segundo numero : ");
-    num2 = int.Parse(Console.ReadLine());
+    num2 = float.Parse(Console.ReadLine());
 
     Console.WriteLine ("Digite o terceiro numero : ");
-    num3 = int.Parse(Console.ReadLine());
+    num3 = float.Parse(Console.ReadLine());
 
     Console.WriteLine ("Digite o quarto numero : ");
-    num4 = int.Parse(Console.ReadLine());
+    num4 = float.Parse(Console.ReadLine());
 
     Console.WriteLine ("A media dos numeros eh : {0}", (num1+num2+num3+num4)/4);
 
